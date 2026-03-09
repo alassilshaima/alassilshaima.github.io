@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Shaima Alassil Portfolio</title>
+  <link rel="icon" href="favicon.png">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 60px 0;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+    }
+
+    .hero-image {
+      background: white;
+      color: #475569;
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px dashed #cbd5e1;
+    }
+
+    .buttons {
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      margin-right: 12px;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .button-primary {
+      background: white;
+      color: #0f172a;
+    }
+
+    .button-secondary {
+      background: transparent;
+      color: white;
+      border: 1px solid rgba(255,255,255,0.35);
+    }
+
+    section {
+      padding: 50px 0;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .card, .project-card, .contact-card {
+      background: white;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+      color: black;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+    }
+
+    .skills-list li {
+      background: #e2e8f0;
+      color: #1e293b;
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0c4a6e;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      margin: 6px 6px 0 0;
+    }
+
+    pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 20px;
+      border-radius: 16px;
+      overflow-x: auto;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+
+    .contact-section {
+      background: #0f172a;
+      color: white;
+      border-radius: 24px;
+      padding: 32px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px 50px;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .card-grid,
+      .projects-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container hero">
+      <div>
+        <div class="badge">QA Engineer • Hardware Enthusiast • Automation Learner</div>
+        <div style="text-align:center;">
+            
+<h1>Shaima Alassil Portfolio</h1>
+</div>
+        
+        <p>
+          Technical support professional building a stronger path into QA, hardware,
+          and engineering-focused roles through hands-on projects, automation practice,
+          and real-world troubleshooting experience.
+        </p>
+        <div class="buttons">
+          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image" >
+        <img src="Mera.png" Meram Assilo" width="250">
+        
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container card-grid">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>
+          I enjoy solving technical problems, learning automation, and building hands-on
+          hardware skills. My background in Apple support helped me strengthen troubleshooting,
+          communication, and process thinking while I continue growing toward QA and lab-based roles.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Python</li>
+          <li>HTML/CSS</li>
+          <li>Selenium Automation</li>
+          <li>SQL</li>
+          <li>Hardware Troubleshooting</li>
+          <li>Apple Ecosystem Support</li>
+          <li>PC Building</li>
+          <li>QA Testing</li>
+          <li>Technical Documentation</li>
+          <li>Lab Setup</li>
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>A few examples of the work and learning I want recruiters to see.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Automation Login Test</h3>
+          <p>
+            Built a basic automated login test using Python and Selenium to validate user
+            authentication flow and confirm successful login behavior.
+          </p>
+          <span class="tag">Python</span>
+          <span class="tag">Selenium</span>
+          <span class="tag">UI Testing</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Built a PC from Scratch</h3>
+          <p>
+            Assembled a full desktop computer including motherboard, CPU, RAM, power supply,
+            storage, cable management, and system setup.
+          </p>
+          <span class="tag">Hardware</span>
+          <span class="tag">Troubleshooting</span>
+          <span class="tag">Hands-on Build</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Apple Technical Support Experience</h3>
+          <p>
+            Supported customers with Apple products, troubleshooting workflows, system issues,
+            and complex technical cases while improving communication and problem solving.
+          </p>
+          <span class="tag">Customer Support</span>
+          <span class="tag">Troubleshooting</span>
+          <span class="tag">Apple Systems</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Sample Automation Code</h2>
+        <pre>from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Chrome()
+driver.get("https://the-internet.herokuapp.com/login")
+
+username = driver.find_element(By.ID, "username")
+username.send_keys("tomsmith")
+
+password = driver.find_element(By.ID, "password")
+password.send_keys("SuperSecretPassword!")
+
+driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()</pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-section">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p>alassilshaima@gmail.com</p>
+          </div>
+          <div class="contact-card">
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/shaima-alassil-386537126" target="_blank">Shaima Alassil</a></p>
+          </div>
+          <div class="contact-card">
+            <h3>YouTube</h3>
+            <p><a href="https://www.youtube.com/@shaimaalassil3222">Shaima Alassil</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="display:flex; justify-content:center; align-items:center; gap:20px; padding:40px;">
+
+  <img src="logo.png" alt="Shaima Alassil Logo" style="width:120px;">
+
+  <p style="margin:0;">© 2026 Shaima Alassil. All rights reserved.</p>
+
+</footer>
+  
+  <script>
+document.addEventListener("contextmenu", event => event.preventDefault());
+    </script> <!-- blocks right-click copy. -->
+</body>
+</html>
