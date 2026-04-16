@@ -40,6 +40,18 @@
       align-items: center;
     }
 
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image img {
+  width: 220px;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+}
+
     .badge {
       display: inline-block;
       background: rgba(255, 255, 255, 0.12);
@@ -63,19 +75,8 @@
       max-width: 700px;
     }
 
-    .hero-image {
-      background: white;
-      color: #475569;
-      border-radius: 20px;
-      padding: 24px;
-      text-align: center;
-      min-height: 220px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 2px dashed #cbd5e1;
-    }
-
+   
+ 
     .buttons {
       margin-top: 24px;
     }
@@ -202,25 +203,21 @@
   <header>
     <div class="container hero">
       <div>
-        <div class="badge">QA Engineer • Hardware Enthusiast • Automation Learner</div>
+        
         <div style="text-align:center;">
             
 <h1>Shaima Alassil Portfolio</h1>
 </div>
         
-        <p>
-          Technical support professional building a stronger path into QA, hardware,
-          and engineering-focused roles through hands-on projects, automation practice,
-          and real-world troubleshooting experience.
-        </p>
+        
         <div class="buttons">
-          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-primary" href="projects.html">View Projects</a>
           <a class="button button-secondary" href="#certifications">Certifications</a>
           <a class="button button-secondary" href="#contact">Contact Me</a>
         </div>
       </div>
       <div class="hero-image" >
-        <img src="Mera.png" Meram Assilo" width="250">
+        <img src="Mera.png" Meram Assilo" width="150">
         
       </div>
     </div>
@@ -231,10 +228,12 @@
       <div class="card">
         <h2>About Me</h2>
         <p>
-          I enjoy solving technical problems, learning automation, and building hands-on
-          hardware skills. My background in Apple support has helped me strengthen troubleshooting, 
-          communication, and process thinking while I continue growing toward QA and lab-based roles.
+          QA and hardware-focused technical professional with experience supporting Apple systems through diagnostics, 
+          hardware validation, and lab-based testing. Proven ability to troubleshoot complex technical issues, maintain large-scale test environments, 
+          and support engineering teams during product development and testing cycles. Additional experience in UX/UI design, web technologies, and automation, 
+          with a strong focus on improving system reliability and creating intuitive user-centered digital experiences.
         </p>
+        
       </div>
 
       <div class="card">
@@ -250,6 +249,8 @@
           <li>QA Testing</li>
           <li>Technical Documentation</li>
           <li>Lab Setup</li>
+          <li>Lab Setup</li>
+          <li>UX/UI Design</li>
           
           
           
@@ -259,115 +260,7 @@
     </div>
   </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <p>A few examples of the work and learning I want recruiters to see.</p>
-
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Automation Login Test</h3>
-          <p>
-            Built a basic automated login test using Python and Selenium to validate user
-            authentication flow and confirm successful login behavior.
-          </p>
-          <span class="tag">Python</span>
-          <span class="tag">Selenium</span>
-          <span class="tag">UI Testing</span>
-        </div>
-
-        <div class="project-card">
-          <h3>Built a PC from Scratch</h3>
-          <p>
-            Assembled a full desktop computer including motherboard, CPU, RAM, power supply,
-            storage, cable management, and system setup.
-          </p>
-          <span class="tag">Hardware</span>
-          <span class="tag">Troubleshooting</span>
-          <span class="tag">Hands-on Build</span>
-        </div>
-
-        <div class="project-card">
-          <h3>Apple Technical Support Experience</h3>
-          <p>
-            Supported customers with Apple products, troubleshooting workflows, system issues,
-            and complex technical cases while improving communication and problem solving.
-          </p>
-          <span class="tag">Customer Support</span>
-          <span class="tag">Troubleshooting</span>
-          <span class="tag">Apple Systems</span>
-        </div>
-
-        <div class="project-card">
-  <h3>TrailMeet – MTB Ride Meetup App</h3>
-  <p>
-    UX/UI concept for a dedicated mountain biking meetup app designed to make
-    organizing group rides easier and clearer than using Facebook or Strava posts.
-  </p>
-
-  <span class="tag">UX Design</span>
-  <span class="tag">Figma</span>
-  <span class="tag">Prototype</span>
-
-  <br><br>
-
-  <a href="trailmeet.html" class="button button-primary">View Case Study</a>
-</div>
-
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="card">
-        <h2>Sample Automation Code</h2>
-        <pre>from selenium import webdriver
-from selenium.webdriver.common.by import By
-
-driver = webdriver.Chrome()
-driver.get("https://the-internet.herokuapp.com/login")
-
-username = driver.find_element(By.ID, "username")
-username.send_keys("tomsmith")
-
-password = driver.find_element(By.ID, "password")
-password.send_keys("SuperSecretPassword!")
-
-driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()</pre>
-      </div>
-    </div>
-  </section>
   
-  <section>
- <div class="container">
-      <div class="card">
-     
-
-<h3>Apple Device Hardware Teardown Project</h3>
-<p>
-Hands-on hardware work involving the teardown and inspection of multiple Apple devices including iPhones, iPads, and Mac computers. 
-The process involved carefully disassembling devices using professional repair tools to examine internal components such as antennas, camera modules, 
-batteries, and MLBs (Main Logic Boards). These teardowns helped develop a deeper understanding of Apple device architecture, component layout, and hardware design.
-</p>
-
-
-
-
-<h4>Skills Demonstrated</h4>
-
-
-<span class="tag">device hardware teardown</span>
-<span class="tag">component identification</span>
-<span class="tag">Precision repair tools</span>
-<span class="tag">Hardware troubleshooting</span>
-<p><a href="https://www.youtube.com/watch?v=P1gAjQ7S9Zg" style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> iPhone Teardown Project</a></p>
-
-
-
-</div>
-</div>
-  </section>
 <!--------Add certifications------>
   <section id="certifications">
   <div class="container">
